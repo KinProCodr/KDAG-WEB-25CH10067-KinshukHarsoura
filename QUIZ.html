@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page- KDAG</title>
+    <link rel="stylesheet" href="QUIZ.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Oswald:wght@200..700&display=swap');
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="leftalign">
+            <a href="https://www.kdagiitkgp.com/"><img src="KDAG.png" alt="Logo" height="35px"></a>
+        </div>
+        <div class="rightalign">
+            <div class="navelement" id="E1"><a href="https://www.kdagiitkgp.com/events">Events</a></div>
+            <div class="navelement" id="E2"><a href="https://www.kdagiitkgp.com/gallery"> Gallery</a></div>
+            <div class="navelement" id="E3"><a href="https://www.kdagiitkgp.com/ml_sheet"> ML Sheet</a></div>
+            <div class="navelement" id="E4"><a href="QUIZ.html"> QUIZ</a></div>
+            <div class="navelement" id="E5"> <a href="https://www.kdagiitkgp.com/resources">Resources</a></div>
+            <div class="navelement" id="E6"><a href="https://www.kdagiitkgp.com/blogs"> Blog</a></div>
+            <div class="navelement" id="E7"><a href="https://www.kdagiitkgp.com/team"> Team</a></div>
+        </div>
+    </div>
+    <h1 id="welcome">Welcome to the KDAG quiz.</h1>
+    <div class="mainbox">
+        <div id="box">
+            <h2 class="question" id="question">Quiz question</h2>
+            <hr>
+            <ul>
+                <li>
+                    <input type="radio" class="answer" id="a" name="answer">
+                    <label for="a" id="option1" class="op"> Option1</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="b" name="answer">
+                    <label for="b" id="option2" class="op"> Option2</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="c" name="answer">
+                    <label for="c" id="option3" class="op"> Option3</label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" id="d" name="answer">
+                    <label for="d" id="option4" class="op"> Option4</label>
+                </li>
+            </ul>
+            <hr>
+            <div class="btn">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="QUIZ.js"></script>
+</body>
+</html>

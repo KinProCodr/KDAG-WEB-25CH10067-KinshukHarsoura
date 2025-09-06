@@ -1,0 +1,105 @@
+*{
+    background-color: black;
+    color: red;
+    font-family: oswald;
+}
+ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: white;
+    height: 180px;
+}
+.op{
+    color: white;
+}
+li{
+    margin: 6px;
+}
+li:hover{
+    font-size: 26px;
+}
+button{
+    height: 55px;
+    width:76px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    font-weight: 750;
+    font-size: 17px;
+}
+button:hover{
+    border: 1px solid white;
+    font-size: 16px;
+}
+h2{
+    color: red;
+}
+#box{
+    position: absolute;
+    left: 300px;
+    width: 750px;
+    margin: 50px;
+    padding: 5px;
+    border: 5px solid  black;
+
+}
+#box:hover{
+    border: 5px solid  rgb(241, 66, 57);
+
+}
+#question{
+    font-size: 35px;
+}
+.navbar{
+    top: 2px;
+    height: 40px;
+    border-bottom: 1px solid white;
+}
+.leftalign{
+    position: absolute;
+    left: 10px;
+}
+.navelement{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navelement:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+#E7{
+    position: absolute;
+    right: 50px;
+}
+#E6{
+    position: absolute;
+    right: 120px;
+}
+#E5{
+    position: absolute;
+    right: 175px;
+} 
+#E4{
+    position: absolute;
+    right: 280px;
+}
+#E3{
+    position: absolute;
+    right: 340px;
+
+}#E2{
+    position: absolute;
+    right: 430px;
+}
+#E1{
+    position: absolute;
+    right: 510px;
+}
